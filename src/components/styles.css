@@ -1,0 +1,101 @@
+.app-container{
+    background-color: rgba(197, 53, 53, 0.678);
+    width: 90%;
+    padding-bottom: 1%;
+    margin: auto;
+    margin-top: 2%;
+    border: 1px solid #131313;
+    border-radius: 10px;
+}
+.app-text-area{
+    background-color: white;
+    margin: auto;
+    margin-top: 1%;
+    height: 30vh;
+    width: 90%;
+    overflow: hidden;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+}
+.app-word{
+    margin-left: 5px;
+}
+.app-word-correct{
+    background-color: rgb(16, 202, 93);
+    margin-left: 5px;
+}
+.app-word-incorrect{
+    background-color: red;
+    margin-left: 5px;
+}
+.app-input-area{
+    width: 90%;
+    height: 50px;
+    border-radius: 10px;
+    background-color:#55c1ec7e;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
+.app-input-area input{
+    width: 40%;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 5px;
+}
+.app-input-area .app-countdown{
+    width: 42px;
+    height: 38px;
+    margin-top: 6px;
+    font-size: 1.2rem;
+    line-height: 35px;
+    text-align: center;
+    background-color: #3c4d5c;
+    border-radius: 5px;
+    margin-left: 10px;
+    color: white;
+}
+.app-reset-button button{
+    margin-top: 15%;
+    margin-left: 3%;
+}
+.app-score-div{
+    width: 30%;
+    background-color: #3c4d5c;
+    padding-bottom: 5px;
+    line-height: 20px;
+    margin: auto;
+    margin-top: 6px;
+    font-size: 1rem;
+    text-align:center;
+    color: white;
+    border-radius: 10px;
+}
+.app-score-div-none{
+    display: none;
+}
+.app-score-div .score-title
+{
+width: 100%;
+height:25px;
+background-color: #28ccf1;
+border: 1px solid rgba(0, 0, 0, 0.308); 
+border-top-left-radius: 9px;
+border-top-right-radius: 9px;
+color: black;
+text-align: center;
+font-weight: bold;
+}
+.app-score-div .score-result
+{
+    width: 100%;
+    margin: auto;
+    text-align: left;
+}
+.app-score-div .score-result p{
+    border-top: 1px solid rgba(0, 0, 0, 0.459);
+    padding: 1px 1px 1px 15px;
+}

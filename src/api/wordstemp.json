@@ -1,0 +1,17 @@
+[
+    {
+        "id":0,
+        "word":"kapı",
+        "status":true
+    },
+    {
+        "id":1,
+        "word":"görmek",
+        "status":true
+    },
+    {
+        "id":2,
+        "word":"başlamak",
+        "status":true
+    }
+]
